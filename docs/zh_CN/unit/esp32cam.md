@@ -159,7 +159,7 @@
 
 1. OV2640 芯片的 **PIN8（PDWN）**引脚为使能引脚，在该主板中通过12KΩ下拉电阻接地使能，进入工作模式.当 PIN8（PDWN）引脚上拉高电平时，将进入**Camera Power Down**模式.
 
-<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/Product_compared.pdf"><el-button type="primary">查看M5摄像头系列/产品区别</el-button>
+<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/Product_compared.pdf"><el-button type="primary">查看M5摄像头系列/产品区别</el-button></a>
 
 ## 相关链接
 
@@ -176,11 +176,14 @@
 
 - **[ESP32CAM 固件](https://github.com/m5stack/M5Stack-Camera/tree/master/wifi/wifi_ap/firmware/ESP32-Camera)**
 
+
 - **[串口通信-ESP32CAM](https://github.com/m5stack/M5Stack-Camera/tree/master/uart/firmware/ESP32-Camera)**
 
 - **[串口通信-M5Core](https://github.com/m5stack/M5Stack-Camera/tree/master/uart/arduino/uart)**（串口通信例程为，摄像头与M5Core之间通信）
 
+### Arduino
 
+- **[ESP32CAM-Arduino](https://github.com/espressif/arduino-esp32/tree/master/libraries/ESP32/examples/Camera/CameraWebServer)**
 
 
 ## 相关视频
